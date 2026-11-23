@@ -11,7 +11,7 @@ Fine-tuning a Latin language model to translate Latin into English, using QLoRA 
 | **Base model** | [`hathibelagal/llama-3.2-latin`](https://huggingface.co/hathibelagal/llama-3.2-latin) (3B, decoder-only, fine-tuned from Llama 3.2 3B) |
 | **Method** | QLoRA: 4-bit NF4 base model + LoRA adapters (`peft`, `bitsandbytes`) |
 | **Public data** | [`grosenthal/latin_english_parallel`](https://huggingface.co/datasets/grosenthal/latin_english_parallel) (~101k pairs, MIT) |
-| **Our new data** | Hand-aligned pairs from the [Perseus Digital Library](https://www.perseus.tufts.edu) (`data/own_pairs.csv`, [N] pairs) |
+| **Our new data** | [Perseus Digital Library](https://www.perseus.tufts.edu) (`data/own_pairs.csv`, [N] pairs) |
 | **Metrics** | chrF, BLEU, perplexity, manual error review |
 
 Translation is framed as text generation. Each training example is:
