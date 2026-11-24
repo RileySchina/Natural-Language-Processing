@@ -52,8 +52,8 @@ The loss is computed on the English part only.
 ## Results
 | Model | Perplexity | chrF | BLEU |
 |---|---|---|---|
-| Base (no fine-tuning) | – | – | – |
-| + LoRA fine-tuning | – | – | – |
+| Baseline | – | – | – |
+| LoRA fine tuning | – | – | – |
 
 
 ## Attribution and references
